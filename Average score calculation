@@ -1,0 +1,22 @@
+math = float(input("Enter your Math marks (between 0-100): "))
+science = float(input("Enter your Science marks (between 0-100): "))
+english = float(input("Enter your English marks (between 0-100): "))
+if (math < 0 or math > 100) or (science < 0 or science > 100) or (english < 0 or english > 100):
+    print("Invalid input. Try again!")
+else:
+    average = (math + science + english) / 3
+if average == 100:
+        print("Wow! You got a perfect score")
+elif average == 0:
+        print("Oh no! You failed everything")
+elif average >= 90:
+        print(f"Excellent! You got an A. Your average is {average:.2f}.")
+elif average >= 80:
+        print(f"Very Good! You got a B. Your average is {average:.2f}.")
+elif average >= 70:
+        print(f"Good! You got a C. Your average is {average:.2f}.")
+elif average >= 60:
+        print(f"Needs Improvement! You got a D. Your average is {average:.2f}.")
+else:
+        print(f"Fail! You got an F. Your average is {average:.2f}.")
+

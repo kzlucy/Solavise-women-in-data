@@ -1,0 +1,12 @@
+ calculate_rectangle_properties(length, width):
+
+    area = length * width
+    perimeter = 2 * (length + width)
+    return area, perimeter
+length = 10
+width = 5
+area, perimeter = calculate_rectangle_properties(length, width)
+
+print(f"For a rectangle with length = {length} units and width = {width} units:")
+print(f"Area = {area} square units")
+print(f"Perimeter = {perimeter} units")

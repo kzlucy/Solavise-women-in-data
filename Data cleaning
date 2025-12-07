@@ -1,5 +1,42 @@
 what the data in the file is all about:the file is a report of statistics of various cases which was handeled by a hospital in the year 2016
  cleanen dataset:  https://eu.docworkspace.com/d/sIFKa0Z_GAsat1skG?sa=601.1037
+import pandas as pd
+
+df = pd.read_excel(r'C:\Users\User\Desktop\Anaconda assignment\Independent_Medical_Reviews.xlsx')
+df.head()
+df.info()
+df.describe()
+df.isnull().sum()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 19245 entries, 0 to 19244
+Data columns (total 11 columns):
+ #   Column                  Non-Null Count  Dtype 
+---  ------                  --------------  ----- 
+ 0   Reference ID            19245 non-null  object
+ 1   Report Year             19245 non-null  int64 
+ 2   Diagnosis Category      19186 non-null  object
+ 3   Diagnosis Sub Category  17341 non-null  object
+ 4   Treatment Category      18795 non-null  object
+ 5   Treatment Sub Category  17977 non-null  object
+ 6   Determination           19245 non-null  object
+ 7   Type                    19245 non-null  object
+ 8   Age Range               18035 non-null  object
+ 9   Patient Gender          18035 non-null  object
+ 10  Findings                19225 non-null  object
+dtypes: int64(1), object(10)
+memory usage: 1.6+ MB
+Reference ID                 0
+Report Year                  0
+Diagnosis Category          59
+Diagnosis Sub Category    1904
+Treatment Category         450
+Treatment Sub Category    1268
+Determination                0
+Type                         0
+Age Range                 1210
+Patient Gender            1210
+Findings                    20
+dtype: int64
 
   meaning of the new statistics and data analysis words you learnt today
   

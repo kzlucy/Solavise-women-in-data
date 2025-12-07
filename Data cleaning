@@ -1,0 +1,11 @@
+what the data in the file is all about:the file is a report of statistics of various cases which was handeled by a hospital in the year 2016
+ cleanen dataset:  https://eu.docworkspace.com/d/sIFKa0Z_GAsat1skG?sa=601.1037
+
+  meaning of the new statistics and data analysis words you learnt today
+  
+  Dataset:a dataset is a structured collection of data used for analysis, modeling, and decision-making. It is the raw material that data scientists work with to uncover patterns, build insights, and train machine learning models.
+Forward fill:Forward fill takes the previous available value and copies it down to fill the missing value.
+Backward fill:Backward fill takes the next available value and fills the missing value with it.
+Linear interpolation:Linear interpolation is a method of estimating a missing value by connecting the known values with a straight line.
+
+  What could be analyzed from the dataset:

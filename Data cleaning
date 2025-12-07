@@ -8,4 +8,4 @@ Forward fill:Forward fill takes the previous available value and copies it down 
 Backward fill:Backward fill takes the next available value and fills the missing value with it.
 Linear interpolation:Linear interpolation is a method of estimating a missing value by connecting the known values with a straight line.
 
-  What could be analyzed from the dataset:
+  What could be analyzed from the dataset: The num,ber of diseases, conditions which patients are mostly diagnosed of.
